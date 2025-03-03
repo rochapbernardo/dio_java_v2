@@ -32,4 +32,9 @@ public class UsuarioController {
     public void postUser(@RequestBody Usuario user){
         repository.save(user);
     }
+
+    @PutMapping()
+    public void putUser(@RequestBody Usuario user){
+        repository.save(user);
+    }
 }
